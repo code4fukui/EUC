@@ -1,5 +1,7 @@
 # EUC
 
+A [EUC-JP](https://ja.wikipedia.org/wiki/EUC-JP) encoder and decoder in JavaScript (ES modules)
+
 ```js
 import { EUC } from "https://code4fukui.github.io/EUC/EUC.js";
 
@@ -7,13 +9,14 @@ console.log(EUC.encode("あ"));
 console.log(EUC.decode(new Uint8Array([164, 162])));
 ```
 
-```sh
-deno --allow-import EUC.example.js
-```
-
 ## privilege
 
 - --allow-import
+
+for [Deno](https://deno.com/)
+```sh
+deno --allow-import EUC.example.js
+```
 
 ## test
 
