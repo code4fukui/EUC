@@ -1,6 +1,6 @@
 # EUC
 
-A [EUC-JP](https://ja.wikipedia.org/wiki/EUC-JP) encoder and decoder in JavaScript (ES modules)
+An [EUC-JP](https://ja.wikipedia.org/wiki/EUC-JP) encoder and decoder in JavaScript (ES modules)
 
 ```js
 import { EUC } from "https://code4fukui.github.io/EUC/EUC.js";
