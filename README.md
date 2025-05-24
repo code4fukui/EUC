@@ -11,17 +11,17 @@ console.log(EUC.decode(new Uint8Array([164, 162])));
 
 ## privilege
 
-- --allow-import
+- --allow-import=code4fukui.github.io
 
 for [Deno](https://deno.com/)
 ```sh
-deno --allow-import EUC.example.js
+deno --allow-import=code4fukui.github.io EUC.example.js
 ```
 
 ## test
 
 ```sh
-deno test --allow-import
+deno test --allow-import=code4fukui.github.io
 ```
 
 ## browser support check
