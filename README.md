@@ -24,6 +24,10 @@ deno --allow-import EUC.example.js
 deno test --allow-import
 ```
 
+## browser support check
+
+- [euc.html](https://code4fukui.github.io/EUC/euc.html) by [makeHTML.js](makeHTML.js)
+
 ## reference
 
 - [encoding.js](https://github.com/polygonplanet/encoding.js/)
